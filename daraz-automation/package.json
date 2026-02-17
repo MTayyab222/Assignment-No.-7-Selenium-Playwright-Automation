@@ -1,0 +1,20 @@
+{
+  "name": "daraz-playwright-automation",
+  "version": "1.0.0",
+  "description": "Functional test automation for Daraz.pk using Playwright with Page Object Model",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "lint": "eslint tests/ pages/ utils/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Automation QA",
+  "license": "MIT"
+}
